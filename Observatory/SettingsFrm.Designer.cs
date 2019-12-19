@@ -356,7 +356,7 @@
             this.cbxAutoMonitor.Text = "Monitor on launch";
             this.tipCopy.SetToolTip(this.cbxAutoMonitor, "Automatically start monitoring logs at start up");
             this.cbxAutoMonitor.UseVisualStyleBackColor = true;
-            this.cbxAutoMonitor.CheckedChanged += new System.EventHandler(this.cbxAutoMonitor_CheckedChanged);
+            this.cbxAutoMonitor.CheckedChanged += new System.EventHandler(this.CbxAutoMonitor_CheckedChanged);
             // 
             // cbxAutoRead
             // 
